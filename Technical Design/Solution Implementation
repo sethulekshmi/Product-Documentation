@@ -1,0 +1,140 @@
+PROJECT       : DIAMOND BLOCKCHAIN
+
+AIM           : TO IMPLEMENT A SECURE NETWORK INORDER TO TRACK THE HISTORY OF DIAMONDS AND ITS TRANSACTIONS
+
+PLATFORM USED : IBM HYPERLEDGER
+
+LANGUAGE USED : JAVASCRIPT
+
+CONSENSUS USED: PBFT
+
+PROTOCOL USED : JSON FORMAT
+
+NODES REQUIRED : 8
+
+OBJECTIVE 
+  
+ Tracking a diamond from the mine to the retail store is clearly a tricky process, and is far from perfect.  Instead of recording asset 
+ tracking from owner to owner, Everledger is combining data from insurance companies, police departments and certification houses. The 
+ goal is to provide an accurate database that is available to everyone, on the blockchain.
+  
+TECHNOLOGY BEHIND
+  
+ The Hyperledger Project is a collaborative effort created to advance blockchain technology by identifying and addressing important 
+ features for a cross-industry open standard for distributed ledgers that can transform the way business transactions are conducted 
+ globally.
+ We use this technology as our platform for diamond transactions.IBM also offers professional services to help customers create and host 
+ their own Hyperledger apps.For IBM’s Systems group the Linux Foundation’s Hyperledger is the fastest growing Open Source project it has 
+ ever been involved with. While in many sectors blockchain represents both an opportunity and a threat to established players 
+ (think Banking, Insurance, Stock Trading), there are a number of industries where it can be built and supplied now. One such is the
+ diamond industry
+ 
+PROCESS AS A WHOLE
+  
+ Diamond blockchain is being used to supply diamond provenance/pedigree validation. Each diamond is encoded with a digital barcode
+ as it’s mined, and as the diamond is processed, cut and sent to wholesalers/retailers with each of those transactions maintained in the 
+ blockchain. One can easily validate the origin, clarity, color, carrot and cut of a diamond by examining it’s transaction history of the
+ blockchain.
+ 
+ 
+EASY ACCESS TO BLOCKCHAIN
+
+Access to the blockchain can be made easier if each member in a blockchain uses an app which deals with all the transactions taking 
+place.If each user has an app, the transaction app, which connects to the transaction p2p network. For most users, the app is a normal 
+web app. Each user funds their own app with a small amount of bitcoin. In order to download content, the user pays a very, very small
+amount of bitcoin to the peers on the network. This incentivizes people to keep the app open so as to keep servicing the other users. 
+Furthermore, when a user upvotes content, that sends a small amount of bitcoin to the author of that content, thus incentivizing the 
+production of good content. If all the content is authenticated, we can be reasonably sure most payments are going to the right people.
+
+
+SECURITY OF THE APP
+
+This app can be used as the most secure solution since it only deals with the members of the blockchain.An outsider cannot use this app 
+since he has to pay a small amount of bit coin.The ultimate aim is to make it secure and tamperfree and this aim can be achieved by 
+using this transaction app.
+
+
+BEGINNER OF A TRANSACTION
+
+Our project deals with the transaction diamonds which mainly includes 8 roles from the miner to the consumer. Right from the mining 
+stage a diamond gets it’s inputs which are to be added to the blockchain. But the miner may not be able to enter the details of the 
+diamond to the blockchaain, in that case the next role ie, shopkeeper can add the details. Likewise in each stage of transaction, 
+the second role can add the details. For instance consider the next stage, the transaction from the shopkeeper to the dealer. 
+Here the dealer can be made enable to enter the details.Finally when a customer buys a diamond from the jewellery shop, he can add the 
+details to the blockchain.
+
+AUTHENTICATION
+
+All client requests require digital signatures.Request to use the API must be authenticated by providing the API key and secret key, 
+both of which can be accessed on the User Account  page.
+  
+  
+HASHING AND VERIFICATION
+
+A transaction can be verified by using a hash function and it can be obtained by converting the geographical coordinates and timestamp 
+to string.
+   for example ,
+                 function isDate(myDate) {
+    return myDate.constructor.toString().indexOf("Date") > -1;
+}
+ 
+ JavaScript variables can be converted to a new variable and another data type:
+*By the use of a JavaScript function
+*Automatically by JavaScript itself
+
+  The global method String() can convert numbers to strings.
+It can be used on any type of numbers, literals, variables, or expressions:
+Example
+String(x)         // returns a string from a number variable x
+String(123)       // returns a string from a number literal 123
+String(100 + 23)  // returns a string from a number from an expression
+
+The Date method toString() does the same.
+Example
+Date().toString()   // returns "Thu Jul 17 2014 15:38:19 GMT+0200 (W. Europe Daylight Time)"
+
+The global method String() can convert dates to strings.
+String(Date())      // returns "Thu Jul 17 2014 15:38:19 GMT+0200 (W. Europe Daylight Time)"
+
+HANDLING CONFLICTING REQUESTS
+
+*At least give a warning message in the user.
+*Mark the transaction somehow as inactive.
+*Try to recreate the transaction, using inputs that do exist.
+*Automatically try to recreate the transactions.
+
+STATE CHANGES WHEN A TRANSACTION IS ACCEPTED
+
+Transfer of ownership and the current value of the diamond changes as the diamond get transacted from one block to another.
+
+
+TRACKING HISTORY OF DIAMOND
+
+A diamond can be tracked with the help of its unique Id number that is obtained from the trading section.But for entering the
+transaction the person must be a member of the diamond blockchain.
+
+
+API'S USED
+
+User can  provide an extended public key (xPub) and thus a unique, unused corresponding address for customers for transaction 
+can be generated. Users will be  notified about transactions to that address instantly using a callback URL of  choosing.
+
+URL       : http://localhost:3000/api/v2/create
+
+Method    : POST or GET
+
+$password :The password for the new blockchain. Must be at least 10 characters in length.
+
+$api_code :An API code with create blockchain permission.
+
+$priv     : A private key to add to the transaction.
+
+$label    :A label to set for the first address in the transaction Alphanumeric only. 
+
+$email    :An email to associate with the new transaction i.e. the email address of the user. 
+ 
+ 
+ 
+
+
+
