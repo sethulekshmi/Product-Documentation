@@ -94,7 +94,7 @@ Example
 Date().toString()   // returns "Thu Jul 17 2014 15:38:19 GMT+0200 (W. Europe Daylight Time)"
 
 The global method String() can convert dates to strings.
-String(Date())      // returns "Thu Jul 17 2014 15:38:19 GMT+0200 (W. Europe Daylight Time)"
+String(Date())      // returns "Thu Jul 17 2014 15:38:19 GMT+0200 (W. Europe Daylight Time)".
 
 HANDLING CONFLICTING REQUESTS
 
