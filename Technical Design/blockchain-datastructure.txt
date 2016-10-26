@@ -17,8 +17,8 @@
     "received_time":1322131301,
     "relayed_by":"108.60.208.156",
     "tx":[current value:5d44,
-          owner1:miner,
-          owner2:shop keeper]
+          from:miner,
+          to:shop keeper]
 
     "hash":"0000000000000bd70587a393a8acbed75ab67e46cb71e7acaa5ad95f3eacd104",
     "ver":1,
@@ -37,8 +37,8 @@
     "received_time":1322131301,
     "relayed_by":"108.60.208.156",
     "tx":[current value:6e46,
-          owner1:shop keeper,
-          owner2:dealer]
+          from:shop keeper,
+          to:dealer]
 
     "hash":"0000000000000bd70587a3934bacbfa12ab67e46cb4bf7bcfa5ad95f3eacd105",
     "ver":1,
@@ -57,8 +57,8 @@
     "received_time":1322131301,
     "relayed_by":"108.60.208.156",
     "tx":[current value:7e49,
-          owner1:dealer,
-          owner2:buyer]
+          from:dealer,
+          to:buyer]
 
    "hash":"0000000000000bd70589a3934bacbfa32ad67e46cb4bf7bcef5ad95f3ebcd106",
     "ver":1,
@@ -77,8 +77,8 @@
     "received_time":1322131301,
     "relayed_by":"108.60.208.156",
     "tx":[current value:7e59,
-          owner1:buyer,
-          owner2:trader]
+       from:buyer,
+         to:trader]
 
     "hash":"0000000000000bd70589a24faacbfa32ad634efcb7ba7bcbf5ad95f3ebcd107",
     "ver":1,
@@ -98,8 +98,8 @@
     "received_time":1322131301,
     "relayed_by":"108.60.208.156",
     "tx":[current value:8f49,
-          owner1:trader,
-          owner2:cutter]
+        from:trader,
+          to:cutter]
 
    "hash":"0000000000000bd70589a24facbbfa32ad724efcb7ba7bcbf5ad7cf3ebcd108",
     "ver":1,
@@ -124,8 +124,8 @@
     "received_time":1322131301,
     "relayed_by":"108.60.208.156",
     "tx":[current value:9f49,
-          owner1:cutter,
-          owner2:retailer]
+          from:cutter,
+          to:retailer]
 
    "hash":"0000000000000bd70589a24facbbca42ad724efbcd457dcbf5ad7cf3ebcd109",
     "ver":1,
@@ -152,8 +152,8 @@
     "received_time":1322131301,
     "relayed_by":"108.60.208.156",
     "tx":[current value:9f89,
-          owner1:retailer,
-          owner2:consumer1]
+          from:retailer,
+          to:consumer1]
 
    "hash":"0000000000000bd70589a34aacbbca42ad724efbce567dcbf5ad7cf3ebcd110",
     "ver":1,
@@ -180,8 +180,8 @@
     "received_time":1322131301,
     "relayed_by":"108.60.208.156",
     "tx":[current value:5f34,
-          owner1:consumer1,
-          owner2:consumer2] 
+          from:consumer1,
+          to:consumer2] 
 }
 
 
